@@ -57,6 +57,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        spark: {
+          gold: "hsl(var(--spark-gold))",
+          amber: "hsl(var(--spark-amber))",
+          glow: "hsl(var(--spark-glow))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +89,12 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pulse-glow": "pulse-glow 3s ease-in-out infinite",
+        "float": "float 6s ease-in-out infinite",
+      },
+      backgroundImage: {
+        "spark-gradient": "radial-gradient(ellipse at center, hsl(var(--spark-gold) / 0.15) 0%, transparent 70%)",
+        "spark-radial": "radial-gradient(circle at 50% 50%, hsl(var(--spark-gold) / 0.08) 0%, transparent 50%)",
       },
     },
   },
