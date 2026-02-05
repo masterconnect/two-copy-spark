@@ -26,7 +26,7 @@ const Index = () => {
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4 animate-float"
         >
-          <span className="text-spark-gold spark-text-glow">Spark</span>
+          <span className="text-spark-gold spark-text-glow">Two</span>
           <span className="text-foreground">.com</span>
         </motion.h1>
 
